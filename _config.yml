@@ -1,20 +1,20 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://louisdcoleman.github.io
+# baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
+title: Louis D Coleman
+email: lcoleman006@gmail.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: fed136
-  secondary: fec503  
+  secondary: fec503
   secondary-dark: 333
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Louis Coleman
   pic: 1
   position: Lead Designer
   social:
@@ -55,15 +55,15 @@ social:
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
+  - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 1136 Oakheath Drive
+  - line: Harbor City, CA 90710
 
 # Build settings
 markdown: kramdown
