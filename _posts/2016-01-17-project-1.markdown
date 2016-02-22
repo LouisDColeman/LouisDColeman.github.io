@@ -1,0 +1,15 @@
+---
+title: My Thesis
+subtitle: Biomedical/Physics
+layout: default
+modal-id: 1
+date: 2016-01-17
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: January 2016
+client: CSULB
+category: Master Physics/Biomedical Thesis
+description: My Thesis on the Human Lung&#58; Plethysmography, Spirometry, and Inverse Modeling. This thesis uses spirometric and plethysmograph data to determine characteristics and overall health of the lung. Then I used the data to perform modeling and parameter estimation to discern parameters of the lung that traditionally are obtained through invasive procedures. If you are an authorized contributor please click the button above to enter or download the GitHub repository. For further information visit the github project page <a href="http://louisdcoleman.github.io/Thesis/">Louis Coleman's Thesis</a>.
+
+---

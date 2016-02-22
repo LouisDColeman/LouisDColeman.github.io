@@ -2,7 +2,7 @@ url: https://louisdcoleman.github.io
 # baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Louis D Coleman
+title: Louis Coleman
 email: lcoleman006@gmail.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
@@ -26,8 +26,8 @@ people:
       url: https://github.com/LouisDColeman
 
 - name: Susanne Jensen
-  pic: 3
-  position: Chemical Engineer
+  pic: 4
+  position: Previous Member, Chemical Engineer
   social:
     - title: facebook
       url: https://www.facebook.com/susannehelene.jensen
