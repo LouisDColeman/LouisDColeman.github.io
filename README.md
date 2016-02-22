@@ -10,7 +10,7 @@
 
 ###Github Project pages
 
-[Thesis](http://louisdcoleman.github.io/thesis/)
-[Sleep Counter App Development](http://louisdcoleman.github.io/thesis/sleepcounter)
+[Thesis](http://LouisDColeman.github.io/Thesis/)
+[Sleep Counter App Development](http://LouisDColeman.github.io/thesis/sleepcounter)
 
 =========
