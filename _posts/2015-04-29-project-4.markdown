@@ -10,6 +10,6 @@ alt: image-alt
 project-date: May 2015
 client: CSULB
 category: Modeling and Simulation&#58; Master Physics/Biomedical Thesis
-description: <a id="list-of-experiments" class="anchor" href="#list-of-experiments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>List of Experiments</h3><ul><li>Forced Vital Capacity</li><li>Maximum Expiratory Flow Volume Loop</li><li>Slow Vital Capacity</li><li>Respiratory  Pressure</li></ul>
+description: <a id="list-of-experiments" class="anchor" href="#list-of-experiments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>List of Experiments</h3><ul align='left'><li>Forced Vital Capacity</li><li>Maximum Expiratory Flow Volume Loop</li><li>Slow Vital Capacity</li><li>Respiratory  Pressure</li></ul>
 
 ---

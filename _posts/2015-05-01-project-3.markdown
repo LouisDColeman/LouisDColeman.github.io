@@ -10,6 +10,6 @@ alt: image-alt
 project-date: May 2015
 client: CSULB
 category: Plethysmography&#58; Master Physics/Biomedical Thesis
-description: Plethysmograph experiments blah blah blah. <ul><li>Thoracic Gas Volume</li><li>Airway Resistance</li></ul>
+description: Plethysmograph experiments blah blah blah. <ul align='left'><li>Thoracic Gas Volume</li><li>Airway Resistance</li></ul>
 
 ---
