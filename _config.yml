@@ -4,7 +4,7 @@ url: https://louisdcoleman.github.io
 # Site settings
 title: Louis Coleman
 email: lcoleman006@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Louis Coleman, a highly motivated entrepreneur, developer, engineer, and physicist that aims to work with companies that are looking for an edge."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -20,26 +20,26 @@ people:
   social:
     - title: facebook
       url: https://www.facebook.com/louis.d.coleman
-    - title: stack-overflow
-      url: http://stackoverflow.com/questions/tagged/louisdcoleman
+    # - title: stack-overflow
+    #   url: http://stackoverflow.com/questions/tagged/louisdcoleman
     - title: github
       url: https://github.com/LouisDColeman
 
-- name: Susanne Jensen
-  pic: 4
-  position: Previous Member, Chemical Engineer
-  social:
-    - title: facebook
-      url: https://www.facebook.com/susannehelene.jensen
-    - title: linkedin
-      url: https://www.linkedin.com/in/susanne-helene-jensen-a231a140
+# - name: Susanne Jensen
+#   pic: 4
+#   position: Previous Member, Chemical Engineer
+#   social:
+#     - title: facebook
+#       url: https://www.facebook.com/susannehelene.jensen
+#     - title: linkedin
+#       url: https://www.linkedin.com/in/susanne-helene-jensen-a231a140
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
     url: https://www.facebook.com/louis.d.coleman
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/louisdcoleman
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/louisdcoleman
   - title: github
     url: https://github.com/LouisDColeman
 
