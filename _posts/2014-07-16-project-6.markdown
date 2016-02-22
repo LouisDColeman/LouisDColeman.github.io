@@ -2,7 +2,7 @@
 title: Superconductivity
 subtitle: Critical Temperature
 layout: default
-modal-id: 5
+modal-id: 6
 date: 2014-07-16
 img: golden.png
 thumbnail: golden-thumbnail.png

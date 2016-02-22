@@ -2,7 +2,7 @@
 title: Plethysmography
 subtitle: TGV and Airway Resistance
 layout: default
-modal-id: 3
+modal-id: 4
 date: 2015-05-01
 img: escape.png
 thumbnail: escape-thumbnail.png

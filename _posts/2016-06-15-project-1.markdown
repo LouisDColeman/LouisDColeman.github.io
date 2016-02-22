@@ -2,12 +2,12 @@
 title: Sleep Counter
 subtitle: Android App Development
 layout: default
-modal-id: 6
-date: 2014-07-15
+modal-id: 1
+date: 2016-02-15
 img: sleepcounterandroid.png
 thumbnail: sleepcounterandroid-thumbnail.png
 alt: image-alt
-project-date: April 2014
+project-date: February 2016
 client: Coleman Biotech
 category: Mobile Development
 description: <p align="left">For technical details pertaining to the project please go to the <a href="http://LouisDColeman.github.io/SleepCounter">Sleep Counter github project page</a><br><br><b>YOU ARE NOT ALONE</b><br><br>More than one in four people experience insomnia from time to time and more than 1 in 10 will suffer from a chronic form of the disorder. Despite the prevalent belief that insomnia is not a serious problem, there is substantial evidence which shows that untreated and persistent insomnia is associated with&#58;<br><br>&#8226; Reduced quality of life<br>&#8226; Poor work performance<br>&#8226; Increased occurrence of accidents <br>&#8226; Risk for medical illness<br>&#8226; Risk for psychiatric illness<br><br>Fortunately, for the 10 - 20 % of Americans who suffer from insomnia, there is help. Recent advances in Sleep Medicine help the majority of troubled sleepers, often without medication.<br><br><b>TYPES OF SLEEP PROBELMS TREATED</b><br><br>This app is meant for individuals who have difficulty falling asleep, difficulty staying asleep, or difficulty sleeping on a schedule that allows them to function best in their work.<br><br><b>WHAT WILL HAPPEN</b><br><br>Your sleep will be evaluated using a series of questionnaires that you may wish to share with a sleep medicine professional. The questions range from medical history to medical symptoms to sleep disorder symptoms to sleep environment questions. Your sleep medicine professional may wish to conduct an interview. These questions along with the interview will aid in determining the factors that affect your sleep and daytime functioning.<br><br><b>WHAT KIND OF TREATMENT CAN I EXPECT?</b><br><br>For individuals with Primary or Secondary Insomnia, the first line of intervention is usually behavioral. Behavioral treatment is based upon the concept that chronic insomnia (greater than 4 weeks) is maintained by a variety of physical and behavioral factors that have little or nothing to do with acute insomnia (one or two days). The factors that maintain chronic insomnia are the ones targeted for treatment. This treatment is known as CBT-I or Cognitive Behavioral Therapy for Insomnia and this app can aid in CBT-I therapy.<br><br>Clinical studies have shown that behavioral treatment for insomnia is effective, producing long lasting results that are comparable to or exceed those of sleeping pills.<br><br>
