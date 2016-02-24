@@ -69,14 +69,6 @@ h6 {
     background-color: #222;
 }
 
-.btn2-primary {
-    border-color: #{{ site.color.primary }};
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #000;
-}
-
 .btn-primary {
     border-color: #{{ site.color.primary }};
     text-transform: uppercase;
@@ -325,7 +317,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 67px;
         font-weight: 700;
         line-height: 75px;
     }
