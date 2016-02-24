@@ -1,6 +1,6 @@
 ---
-title: Linear and Nonlinear Modeling
-subtitle: Modeling and Simulation
+title: Linear &amp; Nonlinear Modeling
+subtitle: Modeling &amp; Simulation
 layout: default
 modal-id: 3
 date: 2015-12-18

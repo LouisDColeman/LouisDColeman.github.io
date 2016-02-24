@@ -69,6 +69,14 @@ h6 {
     background-color: #222;
 }
 
+.btn2-primary {
+    border-color: #{{ site.color.primary }};
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
 .btn-primary {
     border-color: #{{ site.color.primary }};
     text-transform: uppercase;
@@ -264,7 +272,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    /*color: #fff;*/
+    color: #000;
+    /*color: rgba(254,209,54,.9);*/
     background-attachment: scroll;
     background-image: url(img/header-bg.jpg);
     background-position: center center;
