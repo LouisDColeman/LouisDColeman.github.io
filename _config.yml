@@ -1,4 +1,6 @@
-url: https://louiscoleman.me
+enforce_ssl: https://louiscoleman.me
+
+# url: https://louiscoleman.me
 # baseurl: /agency-jekyll-theme/
 
 # Site settings
