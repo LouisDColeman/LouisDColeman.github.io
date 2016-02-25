@@ -1,4 +1,4 @@
-url: https://louisdcoleman.github.io
+url: https://louiscoleman.me
 # baseurl: /agency-jekyll-theme/
 
 # Site settings
@@ -24,7 +24,7 @@ people:
     #   url: http://stackoverflow.com/questions/tagged/louisdcoleman
     - title: github
       url: https://github.com/LouisDColeman
-      
+
 # - name: Susanne Jensen
 #   pic: 4
 #   position: Previous Member, Chemical Engineer
