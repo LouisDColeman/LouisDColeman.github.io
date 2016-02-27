@@ -11,6 +11,7 @@ description: "Louis Coleman, a highly motivated entrepreneur, developer, enginee
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 3f4e85
+  primary-dark: 263363
   primary-background: 222
   primary-text: ffffff
   primary-text-tint: 949490

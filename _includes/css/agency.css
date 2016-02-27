@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
+    background-color: #{{site.color.primary-background}};
 }
 
 .text-muted {
@@ -24,6 +25,14 @@ body {
 
 .text-tertiary {
     color: #000;
+}
+
+.text-quartenary {
+    color: #dddddd
+}
+
+.text-quartenary-tint {
+    color: #cccccc
 }
 
 p {
@@ -153,6 +162,8 @@ fieldset[disabled] .btn-primary.active {
     /*background-color: #{{ site.color.secondary }};*/
     background-color: #fff; /*background color for old browsers*/
     background: rgba(255, 255, 255, 0.5);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 
@@ -280,10 +291,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-	-moz-animation: reveal-banner 1s 0.25s ease-in-out;
-	-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-	-ms-animation: reveal-banner 1s 0.25s ease-in-out;
-	animation: reveal-banner 1s 0.25s ease-in-out;
+	-moz-animation: reveal-banner 4s 0.25s ease-in-out;
+	-webkit-animation: reveal-banner 4s 0.25s ease-in-out;
+	-ms-animation: reveal-banner 4s 0.25s ease-in-out;
+	animation: reveal-banner 4s 0.25s ease-in-out;
 	-moz-animation-fill-mode: forwards;
 	-webkit-animation-fill-mode: forwards;
 	-ms-animation-fill-mode: forwards;
@@ -356,20 +367,15 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    font-family: serif;
 }
 
 section h5.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-    color: #{{site.color.primary-background}}
-}
-
-section h5.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 40px;
-    color: #{{site.color.primary-background}}
+    color: #{{site.color.primary-background}};
+    font-family: serif;
 }
 
 section h3.section-subheading {
@@ -699,6 +705,10 @@ section#timeline{
 
 .team-member p {
     margin-top: 0;
+}
+
+aside {
+    background-color: #fff;
 }
 
 aside.clients img {
