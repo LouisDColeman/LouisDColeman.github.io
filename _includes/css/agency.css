@@ -7,7 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #{{ site.color.secondary-dark }};
+    color: #fff;
 }
 
 .text-muted {
@@ -16,6 +16,14 @@ body {
 
 .text-primary {
     color: #{{ site.color.primary }};
+}
+
+.text-secondary {
+    color: #{{ site.color.secondary-background }};
+}
+
+.text-tertiary {
+    color: #000;
 }
 
 p {
@@ -180,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #{{site.color.primary-background}};
 }
 
 .navbar-default .navbar-brand {
@@ -263,7 +271,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222; opacity: .8
+        background-color: #{{site.color.primary-background}}; opacity: .8
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -350,6 +358,20 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+section h5.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #{{site.color.primary-background}}
+}
+
+section h5.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #{{site.color.primary-background}}
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
@@ -365,11 +387,18 @@ section h3.section-subheading {
     }
 }
 
+section#services{
+    background-color: #{{site.color.primary-background}};
+}
+
 .service-heading {
     margin: 15px 0;
     text-transform: none;
 }
 
+section#portfolio{
+    /*background-color: #{{site.color.primary-background}};*/
+}
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -446,6 +475,10 @@ section h3.section-subheading {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+}
+
+section#timeline{
+    background-color: #{{site.color.primary-background}};
 }
 
 .timeline {
@@ -673,7 +706,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #{{site.color.primary-background}};
     background-image: url(img/map-image.png); background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -740,6 +773,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+        background-color: #{{site.color.primary-background}};
 }
 
 footer span.copyright {
@@ -768,9 +802,11 @@ ul.social-buttons li a {
     border-radius: 100%;
     font-size: 20px;
     line-height: 40px;
-    outline: 0;
+    /*outline: 1;*/
+    list-style-position:inside;
+    border: 1px solid #{{ site.color.primary }};
     color: #fff;
-    background-color: #222;
+    background-color: #{{site.color.primary-background}};
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -844,7 +880,7 @@ ul.social-buttons li a:active {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #{{site.color.primary-background}};
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -854,7 +890,7 @@ ul.social-buttons li a:active {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: #{{site.color.primary-background}};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
