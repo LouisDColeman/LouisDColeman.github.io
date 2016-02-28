@@ -1,5 +1,6 @@
 ---
-title: Sleep Counter
+#title: Sleep Counter <br><br>  #For carousel view
+title: Sleep Counter #For grid view
 subtitle: Mobile App &amp; Web Development
 layout: default
 modal-id: 1

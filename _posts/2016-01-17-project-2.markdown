@@ -1,5 +1,5 @@
 ---
-title: Thesis&#58; Pulmonary Mechanics
+title: Pulmonary Mechanics
 subtitle: Biomedical/Physics
 layout: default
 modal-id: 2

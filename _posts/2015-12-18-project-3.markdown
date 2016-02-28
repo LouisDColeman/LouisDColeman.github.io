@@ -1,5 +1,5 @@
 ---
-title: Linear &amp; Nonlinear Modeling
+title: Pulmonary Modeling
 subtitle: Modeling &amp; Simulation
 layout: default
 modal-id: 3
