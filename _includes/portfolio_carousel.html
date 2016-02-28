@@ -14,7 +14,6 @@
   <div class="container-fluid">
     <div class="row">
       <div class="span12">
-        <!-- <div id="owl-demo" class="owl-carousel"> -->
         <div class="owl-carousel">
           {% for post in site.posts %}
           <div class="item bg-light-gray">
@@ -24,7 +23,7 @@
                         <i class="fa fa-plus fa-3x"></i>
                     </div>
                 </div> -->
-                <img src="img/portfolio/{{ post.thumbnail }}" alt=""/>
+                <img src="assets/img/portfolio/{{ post.thumbnail }}" alt=""/>
             </a>
             <div class="portfolio-caption text-center" style="margin-top: 20px; padding-bottom: 15px;">
                 <h4 class="text-tertiary">{{ post.title }}</h4>
@@ -40,7 +39,7 @@
 </section>
 
 <script src="../assets/js/jquery-1.9.1.min.js"></script>
-<script src="../owl-carousel/owl.carousel.js"></script>
+<script src="../assets/js/owl.carousel.js"></script>
 
 <script>
 $('.owl-carousel').owlCarousel({
@@ -67,10 +66,3 @@ $('.owl-carousel').owlCarousel({
     }
 });
 </script>
-
-<script src="../assets/js/bootstrap-collapse.js"></script>
-<script src="../assets/js/bootstrap-transition.js"></script>
-<script src="../assets/js/bootstrap-tab.js"></script>
-
-<script src="../assets/js/google-code-prettify/prettify.js"></script>
-<script src="../assets/js/application.js"></script>
