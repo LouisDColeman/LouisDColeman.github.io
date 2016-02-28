@@ -333,7 +333,7 @@ header {
     color: #fff;
     /*background: #2e3842;*/
     background-attachment: scroll;
-    background-image: url(img/header-bg.jpg); background-attachment:fixed;
+    background-image: url(assets/img/header-bg.jpg); background-attachment:fixed;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -790,7 +790,7 @@ aside.clients img {
 
 section#contact {
     background-color: #{{site.color.primary-background}};
-    background-image: url(img/map-image.png); background-attachment:fixed;
+    background-image: url(assets/img/map-image.png); background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
