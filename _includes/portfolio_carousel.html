@@ -1,0 +1,76 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- TODO: Put all my projects. From my thesis to my superconducting to my AFM projects here.Also break thesis into multiple post. For instance one post for plethysmograph testing. Another post for spirometry testing. Another post for inverse modeling -->
+
+<section id="portfolio" class="black">
+<div class="row">
+  <div class="col-lg-12 text-center">
+      <h2 class="section-heading">Portfolio</h2>
+      <h3 class="section-subheading text-muted">Under Construction: Most recent projects ranging from mobile app development to condensed matter physics experiments in superconductivity.</h3>
+      <h6 class="section-subheading text-muted"></h6>
+  </div>
+</div>
+<div id="demo">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="span12">
+        <!-- <div id="owl-demo" class="owl-carousel"> -->
+        <div class="owl-carousel">
+          {% for post in site.posts %}
+          <div class="item bg-light-gray">
+            <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                <!-- <div class="owl-carousel-hover">
+                    <div class="owl-carousel-hover-content">
+                        <i class="fa fa-plus fa-3x"></i>
+                    </div>
+                </div> -->
+                <img src="img/portfolio/{{ post.thumbnail }}" alt=""/>
+            </a>
+            <div class="portfolio-caption text-center" style="margin-top: 20px; padding-bottom: 15px;">
+                <h4 class="text-tertiary">{{ post.title }}</h4>
+                <p class="text-muted" style="margin-top: -10px; font-size: 16px; line-height: 1.75;"><i>{{ post.subtitle }}</i></p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<script src="../assets/js/jquery-1.9.1.min.js"></script>
+<script src="../owl-carousel/owl.carousel.js"></script>
+
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    touchDrag: true,
+    mouseDrag: true,
+    dots: true,
+    dotsEach: true,
+    autoplay: 3000,
+    navText: ["<i class='fa fa-angle-left fa-2x'></i>","<i class='fa fa-angle-right fa-2x'></i>"],
+    autoplayHoverPause: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+});
+</script>
+
+<script src="../assets/js/bootstrap-collapse.js"></script>
+<script src="../assets/js/bootstrap-transition.js"></script>
+<script src="../assets/js/bootstrap-tab.js"></script>
+
+<script src="../assets/js/google-code-prettify/prettify.js"></script>
+<script src="../assets/js/application.js"></script>

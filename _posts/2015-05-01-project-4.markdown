@@ -1,5 +1,6 @@
 ---
-title: Plethysmography
+#title: Plethysmography <br><br> #For grid view
+title: Plethysmography #For carousel view
 subtitle: TGV &amp; Airway Resistance
 layout: default
 modal-id: 4
