@@ -1510,6 +1510,9 @@ owl-carousel .owl-item  .owl-link  .owl-carousel-hover .owl-carousel-hover-conte
 	position: relative;
 	text-align: center;
     background-image: url(assets/img/header-bg.jpg); background-attachment:fixed;
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    -o-background-position: center;
     background-position: center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -1533,6 +1536,10 @@ owl-carousel .owl-item  .owl-link  .owl-carousel-hover .owl-carousel-hover-conte
 	padding: 0.35em 1em;
 	position: relative;
 	z-index: 1;
+  background: linear-gradient(330deg, #000000 0%, #000000 25%, #ffffff 60%, #000000 75%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 #banner h2:before, #banner h2:after {
@@ -1565,6 +1572,9 @@ owl-carousel .owl-item  .owl-link  .owl-carousel-hover .owl-carousel-hover-conte
 #banner p {
 letter-spacing: 0.225em;
 text-transform: uppercase;
+background: linear-gradient(330deg, #000000 0%, #000000 25%, #000000 60%, #000000 75%, #000000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 #banner p a {
