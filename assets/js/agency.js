@@ -59,7 +59,7 @@
 					'.important\\28 medium\\29',
 					skel.breakpoint('medium').active
 				);
-			});      
+			});
   });
 
   // Highlight the top nav as scrolling occurs
@@ -82,5 +82,8 @@
   		}
   	}
   });
+})(jQuery);
 
-  $('header').height($(window).height());
+  // $('banner').height($(window).height());
+
+	// $('banner').height($(window).height());
