@@ -31,6 +31,10 @@
 			$wrapper = $('#page-wrapper'),
 			$banner = $('#banner'),
 			$header = $('#header');
+			// $('banner').height($(window).height());
+			// $wrapper.height($(window).height());
+			// $body.height($(window).height());
+			// $header.height($(window).height());
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -83,7 +87,3 @@
   	}
   });
 })(jQuery);
-
-  // $('banner').height($(window).height());
-
-	// $('banner').height($(window).height());
