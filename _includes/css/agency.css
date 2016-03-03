@@ -1630,9 +1630,8 @@ opacity: 0;
     }
 
     #banner .more {
-    	display: none;
+    	display: block;
     }
-
 }
 
 body.is-loading #banner h2 {
