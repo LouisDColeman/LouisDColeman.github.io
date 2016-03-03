@@ -249,6 +249,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:focus {
     outline: 0;
     color: #{{ site.color.secondary }};
+    background-color: rgba(63,78,133,.7);
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -261,6 +262,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #{{ site.color.secondary }};
+    background-color: rgba(63,78,133,.7);
 }
 
 @media(min-width:768px) {
@@ -1505,6 +1507,9 @@ owl-carousel .owl-item  .owl-link  .owl-carousel-hover .owl-carousel-hover-conte
 	justify-content: center;
 	cursor: default;
 	height: 100vh;
+	-webkit-height: 100vh;
+    -moz-height: 100vh;
+    -o-height: 100vh;
 	min-height: 35em;
 	overflow: hidden;
 	position: relative;
@@ -1536,7 +1541,7 @@ owl-carousel .owl-item  .owl-link  .owl-carousel-hover .owl-carousel-hover-conte
 	padding: 0.35em 1em;
 	position: relative;
 	z-index: 1;
-  background: linear-gradient(330deg, #000000 0%, #000000 25%, #ffffff 60%, #000000 75%, #000000 100%);
+  background: -webkit-linear-gradient(330deg, #000000 0%, #000000 25%, #ffffff 55%, #000000 75%, #000000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -1572,7 +1577,7 @@ owl-carousel .owl-item  .owl-link  .owl-carousel-hover .owl-carousel-hover-conte
 #banner p {
 letter-spacing: 0.225em;
 text-transform: uppercase;
-background: linear-gradient(330deg, #000000 0%, #000000 25%, #000000 60%, #000000 75%, #000000 100%);
+background: -webkit-linear-gradient(330deg, #000000 0%, #000000 25%, #000000 60%, #000000 75%, #000000 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -1655,7 +1660,7 @@ opacity: 0;
 
     #banner {
     padding: 7em 3em 5em 3em ;
-    height: auto;
+    height: 100vh;
     min-height: 0;
     }
 
