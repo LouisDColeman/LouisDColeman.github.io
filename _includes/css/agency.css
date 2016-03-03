@@ -937,48 +937,6 @@ body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
 
-@-moz-keyframes reveal-banner {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@-webkit-keyframes reveal-banner {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@-ms-keyframes reveal-banner {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-
-	@keyframes reveal-banner {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-}
-
 /*
  *  Owl Carousel - Animate Plugin
  */
@@ -1675,56 +1633,56 @@ opacity: 0;
     	display: none;
     }
 
-    }
+}
 
-	body.is-loading #banner h2 {
-		-moz-transform: scale(0.95);
-		-webkit-transform: scale(0.95);
-		-ms-transform: scale(0.95);
-		transform: scale(0.95);
-		opacity: 0;
-	}
+body.is-loading #banner h2 {
+	-moz-transform: scale(0.95);
+	-webkit-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	transform: scale(0.95);
+	opacity: 0;
+}
 
-		body.is-loading #banner h2:before, body.is-loading #banner h2:after {
-			width: 0;
-		}
+body.is-loading #banner h2:before, body.is-loading #banner h2:after {
+	width: 0;
+}
 
-	body.is-loading #banner .more {
-		-moz-transform: translateY(8.5em);
-		-webkit-transform: translateY(8.5em);
-		-ms-transform: translateY(8.5em);
-		transform: translateY(8.5em);
-		opacity: 0;
-	}
+body.is-loading #banner .more {
+	-moz-transform: translateY(8.5em);
+	-webkit-transform: translateY(8.5em);
+	-ms-transform: translateY(8.5em);
+	transform: translateY(8.5em);
+	opacity: 0;
+}
 
-	body.is-loading #banner:after {
-		opacity: 1;
-	}
+body.is-loading #banner:after {
+	opacity: 1;
+}
 
 /* Landing */
 
-	body.landing #page-wrapper {
-		/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");*/
-		background-attachment: fixed;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		padding-top: 0;
-	}
+body.landing #page-wrapper {
+	/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 0;
+}
 
-	body.is-mobile.landing #page-wrapper {
-		background: none;
-	}
+body.is-mobile.landing #page-wrapper {
+	background: none;
+}
 
-	body.is-mobile.landing #banner {
-		/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");*/
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
+body.is-mobile.landing #banner {
+	/*background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/banner.jpg");*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
