@@ -249,7 +249,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:focus {
     outline: 0;
     color: #{{ site.color.secondary }};
-    background-color: rgba(63,78,133,.7);
+    background-color: rgba(63,78,133,1);
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -260,9 +260,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #{{ site.color.secondary }};
-    background-color: rgba(63,78,133,.7);
+    color:  #{{ site.color.secondary }};
+    background-color: rgba(63,78,133,1);
 }
 
 @media(min-width:768px) {
