@@ -1616,9 +1616,9 @@ opacity: 0;
 @media screen and (max-width: 736px) {
 
     #banner {
-    padding: 7em 3em 5em 3em ;
+    /*padding: 7em 3em 5em 3em ;*/
     height: 100vh;
-    min-height: 0;
+    min-height: 100vh;
     }
 
     #banner h2 {
@@ -1639,6 +1639,10 @@ body.is-loading #banner h2 {
 	-webkit-transform: scale(0.95);
 	-ms-transform: scale(0.95);
 	transform: scale(0.95);
+	/*-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);*/
 	opacity: 0;
 }
 
